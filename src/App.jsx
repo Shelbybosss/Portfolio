@@ -5,6 +5,7 @@ import Hero from "./components/Hero.jsx"
 import Footer from "./components/Footer.jsx"
 import Skills from "./components/Skills.jsx"
 import Contact from "./components/Contact.jsx"
+import Project from "./components/Projects.jsx"
 
 
 
@@ -18,7 +19,9 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <Project />
       <Contact />
+      <Footer />
     </div>
   )
 }
