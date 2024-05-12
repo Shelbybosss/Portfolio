@@ -95,9 +95,7 @@ body{
 
  }
 
- .hero-left-inner-left{
-
- }
+ 
 
  .hero-left-inner-left img{
     height: 200px;
@@ -308,7 +306,8 @@ body{
         font-size: 1rem
     }
     .hero-left-inner-right p{
-        font-size: medium;
+        font-size: large;
+        margin-bottom: 0;
     }
     .skills-list{
         margin-left: 10px;
@@ -316,6 +315,11 @@ body{
     }
     .heading{
         margin-left: 10px;
+        
+    }
+
+    .hero-left{
+        margin-bottom: 0;
     }
     .hero-left-inner-left img{
         height: 100px;
@@ -339,7 +343,8 @@ body{
      .button{
         padding: 5px;
         margin: 5px;
-        margin-top: 70px;
+        margin-top: 20px;
+        margin-left: 30px;
      }
 
      .footer ul{
@@ -369,4 +374,73 @@ body{
     .project-description .project-heading{
         margin-top: 40px;
     }
+
+    .information a {
+        font-size: large;
+    }
+
+    .information p{
+        font-size: large;
+    }
+    .skills-list{
+        margin: 5px;
+    }
+
+    .skills-list li{
+        font-size: large;
+    }
+
+    .hero-main{
+        margin-top: 61px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .hero-right-inner{
+   
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-bottom: 0px;
+        padding: 0  ;
+        
+     }
+     
+     .hero-right-inner img{
+        height: 25px;
+        width: 25px ;
+        margin-top: 40px;
+        
+        
+        
+     }
+
+     .hero-left-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+        margin-left: 30%;
+    
+     }
+    
+     
+    
+     .hero-left-inner-left img{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 0;
+        
+    
+     }
+     .skills{
+        margin-top: 0;
+     }
+
+     .heading{
+        margin-top: 30px;
+        margin-left: 20%
+     }
 }
