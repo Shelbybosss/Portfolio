@@ -422,7 +422,7 @@ body{
         flex-direction: column;
         justify-content: center;
         margin-top: 80px;
-        margin-left: 38%;
+        margin-left: 35%;
     
      }
     
@@ -448,5 +448,8 @@ body{
      .navbar li{
         margin: 0;
         padding: 10px;
+        align-items: center;
+        margin-right: 10px;
+        font-size: large;
      }
 }
