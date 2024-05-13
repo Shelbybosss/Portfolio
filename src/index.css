@@ -82,6 +82,10 @@ body{
     transition: 1.2s ease;
  }
 
+ .hero-right-inner img:not(:hover) {
+    transition: transform 0.5s ease; /* Transition back to original size */
+  }
+
  .hero-left{
 
  }
@@ -133,6 +137,12 @@ body{
     transition: 1s ease;
     cursor: pointer;
 }
+
+.button:not(:hover) {
+    transition: transform 0.5s ease; /* Transition back to original size */
+  }
+
+
 
 .heading{
     font-family: monospace;
@@ -262,9 +272,12 @@ body{
 }
 
 .project-image img{
-    height: 400px;
-    width: 400px;
+    height: 220px;
+    width: 250px;
     margin-right: 40px;
+    border-radius: 20px;
+    
+    
 }
 
 .project-description{
@@ -294,6 +307,11 @@ body{
     transition: 1s ease;
     cursor: pointer;
 }
+
+.project-description button:not(:hover) {
+    transition: transform 0.5s ease; /* Transition back to original size */
+  }
+
 
 .project-description .project-heading{
     margin-top: 0;
@@ -357,7 +375,7 @@ body{
      }
      .project-image img{
         height: 200px;
-        width: 200px;
+        width: 300px;
         margin-right: 40px;
     }
 
